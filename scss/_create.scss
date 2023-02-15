@@ -1,0 +1,101 @@
+.create{
+    background: #eaeaea;
+}
+
+.create-inner{
+    min-height: 250px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 73px 0px 95px;
+}
+
+.create-inner-link{
+    height: 84px;
+    width: 244px;
+    font-size: 16px;
+    background: #ee252d;
+    padding: 10px 20px;
+    flex-basis: 80%;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px #fff solid;
+    box-shadow: 0px 0px 0px 3px rgba(255,0,0,0.75);
+    margin: 0 auto;
+
+    a{
+        height: 77px;
+        color: #fff;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+
+@media only screen and(min-width: 768px){
+    .create-inner{
+        min-height: 230px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 73px 0px 95px;
+    }
+    
+    .create-inner-link{
+        height: 84px;
+        width: 550px;
+        font-size: 18px;
+        background: #ee252d;
+        padding: 25px 20px;
+        flex-basis: 80%;
+        border-radius: 10px;
+        text-align: center;
+    
+        a{
+            height: 77px;
+            color: #fff;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            font-weight: 900;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+    
+}
+
+
+@media only screen and(min-width: 1024px){
+    .create-inner{
+        min-height: 260px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 80px 0px 95px;
+    }
+    
+    .create-inner-link{
+        height: 90px;
+        width: 550px;
+        font-size: 18px;
+        background: #ee252d;
+        padding: 25px 20px;
+        flex-basis: 80%;
+        border-radius: 10px;
+        text-align: center;
+      
+    
+        a{
+            height: 77px;
+            color: #fff;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            font-weight: 900;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}
